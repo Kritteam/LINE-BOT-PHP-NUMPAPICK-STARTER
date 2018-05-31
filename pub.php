@@ -1,6 +1,6 @@
  <?php
  function pubMqtt($topic,$msg){
-       $APPID= "https://zebottest.herokuapp.com//webhook/"; //enter your appid
+       $APPID= "zebottest"; //enter your appid
      $KEY = "4288ttlRiRLcRkw"; //enter your key
     $SECRET = "Hw4hcldeaVFNLXg1CKjQWN3RH"; //enter your secret
     $Topic = "$topic"; 
