@@ -10,7 +10,7 @@ const char* host = "https://zebottest.herokuapp.com//webhook";//change this to y
 #define KEY     "4288ttlRiRLcRkw"     //change this to your KEY
 #define SECRET  "4288ttlRiRLcRkw:Hw4hcldeaVFNLXg1CKjQWN3RH"     //change this to your SECRET
 
-#define ALIAS   "NodeMCU1" //set name of drvice
+#define ALIAS   "Led1Line" //set name of drvice
 #define TargetWeb "switch" //set target name of web
 
 WiFiClient client;
