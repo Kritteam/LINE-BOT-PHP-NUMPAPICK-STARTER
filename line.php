@@ -2,7 +2,7 @@
   
 
 function send_LINE($msg){
- $access_token = 'Bupy4ePgRlpnbrLolCroh797Obow4XdgPtabV9Gf+b3l0qGqqQSN7yYSWoqOq2g0GhFh5qfAxiEcgvC+bjIouKZPiSZAGfxuVNIspZkyDOvWqlsTEdFE86Dv5//2EbU1RXrahNmS8RzPFtXaVPbRaAdB04t89/1O/w1cDnyilFU='; 
+ $access_token = 'b9Gym9bgcV0vuc60J5ACBBmy0ZoOjO+iBHp4+qjkEVAc6W/RRFOkBAzsVL8tSTpmGhFh5qfAxiEcgvC+bjIouKZPiSZAGfxuVNIspZkyDOtraErzTT8fDMc2EOGe59ao1RiHGJxWJyVjy0rixEzt0gdB04t89/1O/w1cDnyilFU='; 
 
   $messages = [
         'type' => 'text',
@@ -11,7 +11,7 @@ function send_LINE($msg){
       ];
 
       // Make a POST Request to Messaging API to reply to sender
-      $url = 'ZBot@line.me';
+      $url = 'https://api.line.me/v2/bot/message/push';
       $data = [
 
         'to' => 'U2c81786bd097cb822f07c98ef8a50aa8',
