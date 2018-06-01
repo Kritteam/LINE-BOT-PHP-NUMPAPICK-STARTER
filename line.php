@@ -11,7 +11,7 @@ function send_LINE($msg){
       ];
 
       // Make a POST Request to Messaging API to reply to sender
-      $url = 'qjZ1ks6LCMJrumQ:aoGJKBg29rjbzqqHYH2L8tMyH';
+      $url = 'ZBot@line.me';
       $data = [
 
         'to' => 'U2c81786bd097cb822f07c98ef8a50aa8',
